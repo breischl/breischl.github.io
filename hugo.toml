@@ -11,19 +11,19 @@ languageCode = "en-us"
   ShowPostNavLinks = true
 
   [params.homeInfoParams]
-    Title = "Hi, I'm breischl"
-    Content = "Software engineer. I write about programming, distributed systems, and whatever I'm building."
+    Title = "BKR.dev"
+    Content = "Software, projects, anything else that strikes my fancy"
 
 [menu]
   [[menu.main]]
     name = "Blog"
     url = "/blog/"
     weight = 1
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 2
-  [[menu.main]]
-    name = "Demos"
-    url = "/demos/"
-    weight = 3
+#  [[menu.main]]
+#    name = "Projects"
+#    url = "/projects/"
+#    weight = 2
+#  [[menu.main]]
+#    name = "Demos"
+#    url = "/demos/"
+#    weight = 3
