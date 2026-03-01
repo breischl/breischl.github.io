@@ -1,0 +1,29 @@
+baseURL = "https://breischl.dev/"
+title = "breischl.dev"
+theme = "PaperMod"
+paginate = 10
+languageCode = "en-us"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm breischl"
+    Content = "Software engineer. I write about programming, distributed systems, and whatever I'm building."
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Demos"
+    url = "/demos/"
+    weight = 3
