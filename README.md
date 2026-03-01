@@ -2,13 +2,13 @@
 
 ## To Do
 
-- Update params in `hugo.toml`
 - Verify custom domain name
 - Re-enable custom CName by reverting changes in `deploy.yml`
+- Re-enable demos & projects
 
 ## Local Testing
 
-Run `hugo server -D`, then go to [http://localhost:1313](http://localhost:1313)
+Run `hugo server -D --disableFastRender`, then go to [http://localhost:1313](http://localhost:1313)
 
 ## New Blog Post
 
