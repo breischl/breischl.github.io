@@ -20,11 +20,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      # To use custom domain, remove the `--baseURL` arg, and uncomment `cname` setting below
-      - run: hugo --minify --baseURL "https://breischl.github.io/"
+      - run: hugo --minify
 
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          #cname: breischl.dev
+          cname: breischl.dev
