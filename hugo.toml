@@ -9,6 +9,19 @@ languageCode = "en-us"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
+  comments = true
+
+  [params.giscus]
+    repo           = "breischl/breischl.github.io"
+    repoId         = "R_kgDORcBXJA"
+    category       = "Comments"
+    categoryId     = "DIC_kwDORcBXJM4C3-9t"
+    mapping        = "og:title"
+    reactionsEnabled = "1"
+    theme          = "preferred_color_scheme"
+    lang           = "en"
+    loading        = "lazy"
+    crossorigin    = "anonymous"
 
   [params.homeInfoParams]
     Title = "BKR.dev"
