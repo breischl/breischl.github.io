@@ -1,7 +1,7 @@
 ---
 title: 'Hello KENETH'
 description: 'First post - also, what is KENETH?'
-date: 2026-03-08T20:40:11-07:00
+date: 2026-03-08T20:40:11-06:00
 tags: [keneth, energynet]
 #cover:
     #image: ""

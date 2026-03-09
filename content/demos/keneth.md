@@ -2,6 +2,7 @@
 title: "KENETh Demo"
 date: 2024-01-01
 description: "Interactive demo of the KENETh energy network simulation framework."
+draft: true
 ---
 
 ## KENETh Interactive Demo
