@@ -1,11 +1,11 @@
 ---
 title: "KENETh Demo"
 description: "Interactive demo of the KENETh energy network simulation framework."
-draft: true
+draft: false
 comments: false
 ---
 
-Two in-memory EP nodes performing session handshake and graceful shutdown.
+Two in-memory EP nodes performing session handshake and shutdown.
 Click **Run** to start.
 
 {{< keneth-demo >}}
