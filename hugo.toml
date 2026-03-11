@@ -11,7 +11,7 @@ enableGitInfo = true
 
 [params]
   defaultTheme = "auto"
-  mainSections = ["blog", "demos"]
+  mainSections = ["blog"] # "demos"]
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true

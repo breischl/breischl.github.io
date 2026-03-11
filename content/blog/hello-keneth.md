@@ -8,7 +8,7 @@ tags: [keneth, energynet]
 draft: false
 ---
 
-Hello world! The immediate purpose of this blog is to support and talk about my side project, KENETH. So let's get right to it!
+Hello world! The immediate purpose of this blog is to support and talk about my side project, [KENETH](https://github.com/breischl/KENETh). So let's get right to it!
 
 ## What's The Frequency KENETH?
 KENETH is an open-source implementation of the EnergyNet Protocol - hence the name, which is short for "Kotlin EnergyNET Hub".

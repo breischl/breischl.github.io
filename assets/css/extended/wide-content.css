@@ -1,0 +1,7 @@
+.wide-content {
+    width: 90vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 70vh;
+}

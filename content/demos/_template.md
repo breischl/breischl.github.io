@@ -1,5 +1,5 @@
 ---
-title: "My Demo"
+title: "Demo Page Template"
 draft: true
 comments: false
 ---

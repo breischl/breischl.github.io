@@ -1,10 +1,6 @@
 # breischl.github.io
 
-## To Do
-
-- Verify custom domain name
-- Re-enable custom CName by reverting changes in `deploy.yml`
-- Re-enable demos & projects
+Static site & blog for [breischl.dev](http://breischl.dev)
 
 ## Local Testing
 
@@ -41,3 +37,7 @@ To create a new demo, copy [content/demos/_template.md](content/demos/_template.
 - The bundle is committed to `static/demos/keneth/web.js` in this repo by KENETh's release workflow that runs on version tags (see `RELEASING.md` in that repo)
 - Demo pages use the `{{</* keneth-demo */>}}` Hugo shortcode, which renders a container `<div>` and a `<script>` tag
 - The Kotlin/JS code creates all UI elements programmatically inside the container
+
+## Custom CSS
+
+Some custom CSS classes are applied in `/assets/css/extended/`.
