@@ -1,6 +1,6 @@
-button,
-input[type="button"],
-input[type="submit"] {
+.keneth-demo button,
+.keneth-demo input[type="button"],
+.keneth-demo input[type="submit"] {
     background: var(--tertiary);
     border: 1px solid var(--secondary);
     border-radius: var(--radius);
