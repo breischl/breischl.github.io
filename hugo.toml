@@ -6,12 +6,12 @@ languageCode = "en-us"
 enableGitInfo = true
 
 [frontmatter]
-  date = [":git", "date", ":fileModTime"]
+  date = ["date", ":git", ":fileModTime"]
   lastmod = [":git", "lastmod", ":fileModTime"]
 
 [params]
   defaultTheme = "auto"
-  mainSections = ["blog"] # "demos"]
+  mainSections = ["blog"]
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
