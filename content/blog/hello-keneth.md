@@ -2,7 +2,7 @@
 title: 'Hello KENETH'
 description: 'First post - also, what is KENETH?'
 date: 2026-03-08T20:40:11-06:00
-tags: [keneth, energynet]
+tags: ["keneth", "energynet"]
 #cover:
     #image: ""
 draft: false

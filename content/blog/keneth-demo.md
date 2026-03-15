@@ -1,7 +1,7 @@
 ---
 title: 'KENETH Web Demo'
 description: 'An initial in-browser demo of KENETH'
-tags: ["keneth"]
+tags: ["keneth", "energynet"]
 date: 2026-03-14T09:00:00-06:00
 #cover:
     #image: ""
