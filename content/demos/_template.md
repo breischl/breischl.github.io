@@ -6,4 +6,4 @@ comments: false
 
 Description of the demo.
 
-{{</* keneth-demo script="my-bundle-name" */>}}
+{{< keneth-demo demoId="keneth-demo-name" >}}

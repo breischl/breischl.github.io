@@ -4,10 +4,5 @@ layout: "list"
 draft: false
 ---
 
-Interactive demos of KENETH (Kotlin EnergyNet Host) nodes communicating with each other. 
+Interactive EnergyNet Protocol demos and tools based on the [KENETH (Kotlin EnergyNet Host) library](https://github.com/breischl/KENETh).
 These run entirely in your browser window, using the real KENETH code compiled to Javascript via Kotlin-JS.
-
-Inter-node communication uses real EnergyNet Protocol messages, including CBOR (de-)serialization. The network is simulated using in-memory queues.
-
-Physical energy interactions (power transfers, storage, etc) are pure fiction.
-

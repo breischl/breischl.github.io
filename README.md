@@ -27,16 +27,16 @@ Comments are powered by [Giscus](https://giscus.app), which stores comments in G
 
 **Moderate comments** via GitHub Discussions at `github.com/breischl/breischl.github.io/discussions` — threads can be deleted, hidden, or locked there.
 
-## KENETh Demos
+## KENETH Demos
 
-Interactive demos of the [KENETh](https://github.com/breischl/KENETh) EnergyNet Protocol library live under `/demos/keneth/`. 
+Interactive demos of the [KENETH](https://github.com/breischl/KENETH) EnergyNet Protocol library live under `/demos/keneth/`. 
 To create a new demo, copy [content/demos/_template.md](content/demos/_template.md) and modify appropriately.
 
 **How it works:**
-- The KENETh repo's `web` module compiles Kotlin to a JavaScript bundle (`web.js`) via Kotlin/JS + webpack
-- The bundle is committed to `static/demos/keneth/web.js` in this repo by KENETh's release workflow that runs on version tags (see `RELEASING.md` in that repo)
-- Demo pages use the `{{</* keneth-demo */>}}` Hugo shortcode, which renders a container `<div>` and a `<script>` tag
-- The Kotlin/JS code creates all UI elements programmatically inside the container
+- The KENETH repo's `web` module compiles Kotlin to a JavaScript bundle (`web.js`) via Kotlin/JS + webpack
+- The bundle is committed to `static/demos/keneth/web.js` in this repo by KENETH's release workflow that runs on version tags (see `RELEASING.md` in that repo)
+- Demo pages use the `{{< keneth-demo demoId="demo-name" >}}` Hugo shortcode, which renders a container `<div>` and a `<script>` tag
+- The Kotlin/JS code creates all UI elements programmatically inside the container, based on the demoId given
 
 ## Custom CSS
 

@@ -1,3 +1,3 @@
-{{ $script := .Get "script" | default "web" }}
-<div id="keneth-demo" class="keneth-demo wide-content"></div>
-<script src="/demos/keneth/{{ $script }}.js" defer></script>
+{{ $demoId := .Get "demoId" }}
+<div id="{{ $demoId }}" class="keneth-demo wide-content"></div>
+<script src="/demos/keneth/web.js" defer></script>
