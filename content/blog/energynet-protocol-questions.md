@@ -1,11 +1,11 @@
 ---
 title: 'EnergyNet Protocol Questions'
-date: '2026-03-15T16:22:56-06:00'
+date: '2026-03-15T18:22:56-06:00'
 description: "Some things I don't understand about EN"
 tags: ["energynet"]
 #cover:
     #image: ""
-draft: true
+draft: false
 ---
 The process of writing software tends to reveal any holes in your understanding of the thing you're implementing. Building
 KENETH certainly revealed to me some places I didn't understand [EnergyNet](https://github.com/energyetf/energynet/). A
