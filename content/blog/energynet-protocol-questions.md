@@ -8,7 +8,7 @@ tags: ["energynet"]
 draft: false
 ---
 The process of writing software tends to reveal any holes in your understanding of the thing you're implementing. Building
-KENETH certainly revealed to me some places I didn't understand [EnergyNet](https://github.com/energyetf/energynet/). A
+[KENETH](https://github.com/breischl/KENETh) certainly revealed to me some places I didn't understand [EnergyNet](https://github.com/energyetf/energynet/). A
 number of these were purely my own fault, and were resolved by reading the spec more carefully, or understanding the
 underlying CBOR format better. But some of them I don't seem to be able to answer on my own, so I thought I'd post them here.
 My hope is that I can clarify them for myself, and also in a more public manner for anyone who might come after me.
