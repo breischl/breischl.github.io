@@ -43,6 +43,10 @@ enableGitInfo = true
 #    url = "/projects/"
 #    weight = 2
   [[menu.main]]
+    name = "Flasher"
+    url = "/apps/flasher/"
+    weight = 2
+  [[menu.main]]
     name = "KENETH Demos"
     url = "/demos/keneth/"
     weight = 3
