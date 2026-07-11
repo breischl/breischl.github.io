@@ -1,1 +1,72 @@
-["survival-phrases", "greetings-introductions", "numbers", "food-drink-basics", "getting-around", "at-the-restaurant", "shopping-money", "accommodation", "days-time", "verbs-essere-avere", "verbs-andare-fare", "regular-verbs-present", "emergencies-directions", "travel-sentences"]
+[
+    {
+        "id": "survival-phrases",
+        "title": "1 \u00b7 Survival Phrases",
+        "cardCount": 12
+    },
+    {
+        "id": "greetings-introductions",
+        "title": "1 \u00b7 Greetings & Introductions",
+        "cardCount": 12
+    },
+    {
+        "id": "numbers",
+        "title": "1 \u00b7 Numbers",
+        "cardCount": 20
+    },
+    {
+        "id": "food-drink-basics",
+        "title": "1 \u00b7 Food & Drink Basics",
+        "cardCount": 12
+    },
+    {
+        "id": "getting-around",
+        "title": "2 \u00b7 Getting Around",
+        "cardCount": 14
+    },
+    {
+        "id": "at-the-restaurant",
+        "title": "2 \u00b7 At the Restaurant",
+        "cardCount": 12
+    },
+    {
+        "id": "shopping-money",
+        "title": "2 \u00b7 Shopping & Money",
+        "cardCount": 12
+    },
+    {
+        "id": "accommodation",
+        "title": "2 \u00b7 At the Hotel",
+        "cardCount": 12
+    },
+    {
+        "id": "days-time",
+        "title": "2 \u00b7 Days & Time",
+        "cardCount": 14
+    },
+    {
+        "id": "verbs-essere-avere",
+        "title": "3 \u00b7 Verbs: essere & avere",
+        "cardCount": 14
+    },
+    {
+        "id": "verbs-andare-fare",
+        "title": "3 \u00b7 Verbs: andare & fare",
+        "cardCount": 14
+    },
+    {
+        "id": "regular-verbs-present",
+        "title": "3 \u00b7 Regular Verbs (present)",
+        "cardCount": 11
+    },
+    {
+        "id": "emergencies-directions",
+        "title": "3 \u00b7 Emergencies & Directions",
+        "cardCount": 12
+    },
+    {
+        "id": "travel-sentences",
+        "title": "4 \u00b7 Travel Sentences",
+        "cardCount": 12
+    }
+]
