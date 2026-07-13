@@ -12,7 +12,7 @@
     {
         "id": "numbers",
         "title": "Numbers",
-        "cardCount": 20
+        "cardCount": 33
     },
     {
         "id": "food-drink-basics",
@@ -55,6 +55,11 @@
         "cardCount": 14
     },
     {
+        "id": "pronouns",
+        "title": "Pronouns",
+        "cardCount": 13
+    },
+    {
         "id": "regular-verbs-present",
         "title": "Regular Verbs (present)",
         "cardCount": 11
@@ -68,5 +73,10 @@
         "id": "travel-sentences",
         "title": "Travel Sentences",
         "cardCount": 12
+    },
+    {
+        "id": "colloquialisms",
+        "title": "Colloquialisms",
+        "cardCount": 8
     }
 ]
