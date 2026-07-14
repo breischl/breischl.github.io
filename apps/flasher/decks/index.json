@@ -2,12 +2,12 @@
     {
         "id": "survival-phrases",
         "title": "Survival Phrases",
-        "cardCount": 12
+        "cardCount": 14
     },
     {
         "id": "greetings-introductions",
         "title": "Greetings & Introductions",
-        "cardCount": 12
+        "cardCount": 13
     },
     {
         "id": "numbers",
@@ -45,24 +45,19 @@
         "cardCount": 14
     },
     {
-        "id": "verbs-essere-avere",
-        "title": "Verbs: essere & avere",
-        "cardCount": 14
-    },
-    {
-        "id": "verbs-andare-fare",
-        "title": "Verbs: andare & fare",
-        "cardCount": 14
-    },
-    {
         "id": "pronouns",
         "title": "Pronouns",
-        "cardCount": 13
+        "cardCount": 12
     },
     {
         "id": "regular-verbs-present",
         "title": "Regular Verbs (present)",
-        "cardCount": 11
+        "cardCount": 8
+    },
+    {
+        "id": "verbs-essere-avere",
+        "title": "Verbs: essere & avere",
+        "cardCount": 12
     },
     {
         "id": "emergencies-directions",
@@ -70,8 +65,18 @@
         "cardCount": 12
     },
     {
+        "id": "verbs-andare-fare",
+        "title": "Verbs: andare & fare",
+        "cardCount": 12
+    },
+    {
         "id": "travel-sentences",
         "title": "Travel Sentences",
+        "cardCount": 12
+    },
+    {
+        "id": "verbs-potere-volere",
+        "title": "Verbs: potere & volere",
         "cardCount": 12
     },
     {
