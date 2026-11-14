@@ -5,11 +5,19 @@
 //   - shell cache: index.html, credits.html, flasher.js, styles.css  (keyed by __CODE_VERSION)
 //   - deck cache:  decks/index.json + every deck + every card image (keyed by __CONTENT_VERSION)
 // The versions are build-injected hashes of each bucket's source inputs (see the
-// generateSwVersion Gradle task), so a deploy invalidates exactly the bucket that changed.
+// generateServiceWorker Gradle task), so a deploy invalidates exactly the bucket that changed.
+//
+// This file is a TEMPLATE: the build replaces the marker below with the version constants and
+// image list, inlined. They must live in sw.js itself (not an importScripts'd file) because a
+// browser only installs an updated SW when the bytes of sw.js change — Safari/iOS does not
+// reliably byte-check imported scripts, so a separate version file left iPhones stuck on stale
+// caches forever.
 //
 // All URLs are relative so the SW works under the /apps/flasher/ subpath on breischl.dev.
 
-importScripts("sw-version.js"); // defines self.__CODE_VERSION, self.__CONTENT_VERSION, self.__IMAGES
+self.__CODE_VERSION = "6cd427342c0a";
+self.__CONTENT_VERSION = "118e88c67f8d";
+self.__IMAGES = ["decks/scuba-hand-signals/ascend-to-stop.webp","decks/scuba-hand-signals/ascend.webp","decks/scuba-hand-signals/boat.webp","decks/scuba-hand-signals/bubbles.webp","decks/scuba-hand-signals/buddy-up.webp","decks/scuba-hand-signals/cant-equalize.webp","decks/scuba-hand-signals/cold.webp","decks/scuba-hand-signals/cramp.webp","decks/scuba-hand-signals/cut-the-line.webp","decks/scuba-hand-signals/danger-there.webp","decks/scuba-hand-signals/danger.webp","decks/scuba-hand-signals/descend.webp","decks/scuba-hand-signals/dont-know.webp","decks/scuba-hand-signals/entangled.webp","decks/scuba-hand-signals/fetch-me.webp","decks/scuba-hand-signals/give-me-air.webp","decks/scuba-hand-signals/help-surface.webp","decks/scuba-hand-signals/hold-on.webp","decks/scuba-hand-signals/how-much-air.webp","decks/scuba-hand-signals/lead-follow.webp","decks/scuba-hand-signals/level-off.webp","decks/scuba-hand-signals/look.webp","decks/scuba-hand-signals/low-on-air.webp","decks/scuba-hand-signals/not-right.webp","decks/scuba-hand-signals/ok-surface-one-hand.webp","decks/scuba-hand-signals/ok-surface.webp","decks/scuba-hand-signals/ok.webp","decks/scuba-hand-signals/out-of-air.webp","decks/scuba-hand-signals/safety-stop.webp","decks/scuba-hand-signals/silt.webp","decks/scuba-hand-signals/slow-down.webp","decks/scuba-hand-signals/stop.webp","decks/scuba-hand-signals/think.webp","decks/scuba-hand-signals/turn-around.webp","decks/scuba-hand-signals/turn-dive.webp","decks/scuba-hand-signals/which-way.webp"]; // defines self.__CODE_VERSION, self.__CONTENT_VERSION, self.__IMAGES
 
 const SHELL_CACHE = "flasher-shell-" + self.__CODE_VERSION;
 const DECK_CACHE = "flasher-decks-" + self.__CONTENT_VERSION;
@@ -29,7 +37,7 @@ async function precache(cacheName, urls) {
 }
 
 // Every deck file plus every card image (decks/<id>/<file>, listed at build time in
-// sw-version.js). Images are precached eagerly, on the assumption the first visit is on WiFi.
+// the build constants above). Images are precached eagerly, on the assumption the first visit is on WiFi.
 async function deckUrls() {
     const response = await fetch("decks/index.json", { cache: "reload" });
     const summaries = await response.json();
